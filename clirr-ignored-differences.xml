@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- see http://mojo.codehaus.org/clirr-maven-plugin/examples/ignored-differences.html -->
+
+<differences>
+  <difference>
+    <!-- 8001 (Class removed): className -->
+    <differenceType>8001</differenceType>
+    <className>com/google/api/client/repackaged/**</className>
+  </difference>
+  <difference>
+    <!-- 7006 (Method Return Type changed): className, method, to (to is just the return type) -->
+    <differenceType>7006</differenceType>
+    <className>com/google/api/client/testing/http/MockLowLevelHttpResponse</className>
+    <method>void addHeader(java.lang.String, java.lang.String)</method>
+    <to>com.google.api.client.testing.http.MockLowLevelHttpResponse</to>
+  </difference>
+</differences>
+
